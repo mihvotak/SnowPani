@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/fde90177-e6a1-4ab7-9769-edf1554071ab
+    Resources:
+    - name: Dialogue
+      pathPrefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/b47b6de3-fcab-444c-a768-73ab89e8282c
+    Resources:
+    - name: Bubble
+      pathPrefix: TextPrinters
+      guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: ChoiceHandlers/226bf577-adc9-4526-b111-adc12be39ecd
+    Resources:
+    - name: ButtonList
+      pathPrefix: ChoiceHandlers
+      guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/5cdfe775-5ca6-453a-8169-671d95cc0de0
+    Resources:
+    - name: ButtonArea
+      pathPrefix: ChoiceHandlers
+      guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: ChoiceHandlers/ce97f65f-d680-4346-a0fa-675f494112e5
+    Resources:
+    - name: ChatReply
+      pathPrefix: ChoiceHandlers
+      guid: 0e61df696cabbea448510879ee732b00
+  - Id: Spawn
+    Resources:
+    - name: Animate
+      pathPrefix: Spawn
+      guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - name: DepthOfField
+      pathPrefix: Spawn
+      guid: ea76638b26a915946b62907dd1e776fd
+    - name: DigitalGlitch
+      pathPrefix: Spawn
+      guid: be75a73ecccb90b4caa5c14edb9ac467
+    - name: Rain
+      pathPrefix: Spawn
+      guid: a9117e2fa90704d45b3e1461596c11ee
+    - name: ShakeBackground
+      pathPrefix: Spawn
+      guid: 9f56c556ba32fd54fae62347c25a8145
+    - name: ShakeCamera
+      pathPrefix: Spawn
+      guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - name: ShakeCharacter
+      pathPrefix: Spawn
+      guid: 1224d69e1592d624cbde93d0f7383d91
+    - name: ShakePrinter
+      pathPrefix: Spawn
+      guid: 2795040988e866646801c80024c50be1
+    - name: Snow
+      pathPrefix: Spawn
+      guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - name: SunShafts
+      pathPrefix: Spawn
+      guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Blur
+      pathPrefix: Spawn
+      guid: e466d9326b30a4b49a3dad428b4d9968
+  - Id: UI
+    Resources:
+    - name: ClickThroughPanel
+      pathPrefix: UI
+      guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: BacklogUI
+      pathPrefix: UI
+      guid: 7fba909c66b25324cb77db18679c2c96
+    - name: CGGalleryUI
+      pathPrefix: UI
+      guid: 71da50c8dae82bd42ba67528804e820c
+    - name: ConfirmationUI
+      pathPrefix: UI
+      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - name: ContinueInputUI
+      pathPrefix: UI
+      guid: 1add671f8348e8443bcc56290e82fc5e
+    - name: ExternalScriptsUI
+      pathPrefix: UI
+      guid: 671ceb4f549ddf046913d7debf113469
+    - name: LoadingUI
+      pathPrefix: UI
+      guid: 53aad00e5cf184e458adb001c550518a
+    - name: MovieUI
+      pathPrefix: UI
+      guid: f9a211517d1cb1a44964dc2254463049
+    - name: RollbackUI
+      pathPrefix: UI
+      guid: a32c73a3aff4b274c85b3ff16c854b07
+    - name: SaveLoadUI
+      pathPrefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
+    - name: SceneTransitionUI
+      pathPrefix: UI
+      guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - name: SettingsUI
+      pathPrefix: UI
+      guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - name: TipsUI
+      pathPrefix: UI
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 4b121aa1be1b7e04480b452c595ff17a
+    - name: VariableInputUI
+      pathPrefix: UI
+      guid: bb95f484e341dcd4391a572f22b7d067
+    - name: PauseUI
+      pathPrefix: UI
+      guid: 480f5db62ea305c46b89a86496d2a0c9
+    - name: ToastUI
+      pathPrefix: UI
+      guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Characters/4dc7e5e4-4993-456a-83d3-57a831d19e89
+    Resources:
+    - name: hobbit
+      pathPrefix: Characters/Kay
+      guid: 8de3b9d96dfb15440874bcfa235c7b49
+  - Id: Characters/38ffa198-4ba4-4865-8401-f8cd1b8395a4
+    Resources:
+    - name: kotolos
+      pathPrefix: Characters/Prince
+      guid: 2913ce7cc96a0ed4e823a97db23be8b2
+  - Id: Characters/32e0e7e3-aeb2-4daa-ad2f-70a1c7508038
+    Resources:
+    - name: samka
+      pathPrefix: Characters/Magess
+      guid: c86216b9472281e4bafa11f7641dd356
+  - Id: Characters/9ce16629-02f7-4617-8bd9-c1fe6a851032
+    Resources:
+    - name: volf
+      pathPrefix: Characters/Voron
+      guid: c373cbbb903df6b48bf2e12e5e3b237c
+  - Id: Characters/30fd61f3-7f95-4a4c-80ce-35e947e927f7
+    Resources:
+    - name: pat
+      pathPrefix: Characters/Vorona
+      guid: c1f0da55ed3f22c4791f55f4c949cbd0
+  - Id: Characters/878d5c1b-7f55-4c41-bf0c-073a7a7049bf
+    Resources:
+    - name: kotolos
+      pathPrefix: Characters/Gerda
+      guid: b421b0e0bfc6d284eac7f6ffa931384d
+  - Id: Characters/476a10e5-77da-4187-8b98-9d99aba83b56
+    Resources:
+    - name: pani
+      pathPrefix: Characters/Queen
+      guid: 285e6fbfcbd5bc94b8071b990bf10221
+  - Id: Characters/825d3ff4-2f21-4248-b30d-225314d1ca64
+    Resources:
+    - name: ork
+      pathPrefix: Characters/Robber
+      guid: 9e59daae6bd6e7c4e9bbcaf9a3521e1a
+  - Id: Characters/c460d92c-178d-4665-83b2-5d1e760e5896
+    Resources:
+    - name: vadim
+      pathPrefix: Characters/Troll
+      guid: adf001b8c611c9e41a12745d77b0adfa
+  - Id: Characters/cc715f64-d68d-4193-9ba7-945eae23516f
+    Resources:
+    - name: banka
+      pathPrefix: Characters/Student
+      guid: bf660b13317d1574cafbe6ad0696de1e
+  - Id: Characters/aba13fec-d8f6-43c7-974b-c3822175b714
+    Resources:
+    - name: tina
+      pathPrefix: Characters/Princess
+      guid: 377125c783beb2148b1dbaea56b1e3ab
+  - Id: Characters/8b725b1c-d761-4d38-887f-e40470769c74
+    Resources:
+    - name: zaria
+      pathPrefix: Characters/RobberGirl
+      guid: be98308742dd57e408c985c26805759d
+  - Id: Characters/ae1e8312-5388-4b43-8689-8f7bcb9127cf
+    Resources:
+    - name: kotolos
+      pathPrefix: Characters/Deer
+      guid: e9001c82b24ca8146adb2ae59426f104
+  - Id: Characters/0a2cc217-ad80-4ff4-bf4b-49d306a72b5c
+    Resources:
+    - name: kotolos
+      pathPrefix: Characters/Finka
+      guid: b3da18469bebc92448e15c1ada229eed
+  - Id: Scripts
+    Resources:
+    - name: Scenario
+      pathPrefix: Scripts
+      guid: be69dd0552d447d43b4dcdd9a88625f9
+  - Id: Backgrounds/f3a0399d-86dd-4d0f-b34a-1d579d15ec7b
+    Resources:
+    - name: izba
+      pathPrefix: Backgrounds/MainBackground
+      guid: d252cd4050a2d034b90b1abe697536bd
+    - name: metel
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6208c0f1a8ac7e442b5f9b4ec5428987
+    - name: mountain
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8f963e345a8879b41bf4a2ad33ce5b81
+    - name: garden
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8555adda14f96ba42b83ddbc2a97515b
+    - name: forest
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8e0967b241b484a4cad23cec2274a517
+    - name: village
+      pathPrefix: Backgrounds/MainBackground
+      guid: 77d73772dc6ddda49be04703ac08b41f
+    - name: castle
+      pathPrefix: Backgrounds/MainBackground
+      guid: d35ac36bbf184b24fa1919c1452e336d
+    - name: corridor
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2a60babab6bf43645b650358ba4cf5d8
+    - name: road
+      pathPrefix: Backgrounds/MainBackground
+      guid: ebae8d470714fb544be8720582375d6d
+    - name: finland
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0470b7aba9e250e4a8f9911fe8a39d5e
+    - name: snowCastle
+      pathPrefix: Backgrounds/MainBackground
+      guid: af1a3d65a85c7934eb7d863b85b52043
