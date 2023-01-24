@@ -37,3 +37,5 @@ MonoBehaviour:
     value: false
   - name: end_prince
     value: false
+  - name: end_finka
+    value: false
