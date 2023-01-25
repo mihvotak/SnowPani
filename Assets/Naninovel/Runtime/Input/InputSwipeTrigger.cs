@@ -16,7 +16,7 @@ namespace Naninovel
         [Tooltip("How much fingers (touches) should be active to register the swipe."), Range(1, 5)]
         public int FingerCount = 1;
         [Tooltip("Minimum required swipe distance to activate the trigger, in pixels.")]
-        public float MinimumDistance = 50f;
+        public float MinimumDistance = 350f;
         [Tooltip("Whether to activate the input while moving fingers. When disabled, will only active when fingers are released.")]
         public bool ActivateOnMove;
         

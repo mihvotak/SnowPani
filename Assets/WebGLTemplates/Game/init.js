@@ -57,7 +57,7 @@ function unityShowBanner(msg, type) {
     setTimeout(function() {
       warningBanner.removeChild(div);
       updateBannerVisibility();
-    }, 000);
+    }, 5000);
   }
   updateBannerVisibility();
 }
