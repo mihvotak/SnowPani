@@ -3,7 +3,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'G-PKG8LVZZGC', { 'app_name': "SnowPani", 'app_version': "2023.01.23" });
+gtag('config', 'G-PKG8LVZZGC', { 'app_name': "SnowPani", 'app_version': "2023.01.26" });
 
 var sendScreenView = function(screen_name)
 {
@@ -71,7 +71,7 @@ var config = {
   streamingAssetsUrl: baseUrl + "StreamingAssets",
   companyName: "SGG",
   productName: "SnowPani",
-  productVersion: "2023.01.23",
+  productVersion: "2023.01.26",
   showBanner: unityShowBanner,
 };
 

@@ -16,7 +16,7 @@
 @printer Dialogue
 #Story1
 @sendScreenView screenName:Story1
-Давным-давно в далекой-далекой галлактике...
+Давным-давно в далекой-далекой галактике...
 @back mountain
 Жил-был Тролль, злой-презлой, сущий дьявол, и был он колдуном.
 @char Troll pos:20,60
